@@ -33,7 +33,7 @@
 }
 
 .portfolio-filters {
-    display: flex;
+    display: flex; 
     justify-content: center;
     gap: 15px;
     margin-bottom: 40px;
@@ -123,7 +123,6 @@
 }
 
 @media (max-width: 768px) {
-
     .portfolio-grid {
         grid-template-columns: 1fr;
     }
