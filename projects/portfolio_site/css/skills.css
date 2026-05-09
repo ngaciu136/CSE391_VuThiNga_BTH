@@ -22,7 +22,7 @@
     background: #e2e8f0;
     border-radius: 10px;
     overflow: hidden;
-    height: 20px;
+    height: 12px;
 }
 
 .skills-grid {
@@ -49,5 +49,6 @@
 .skill-name {
     font-size: 1.1rem;
     font-weight: 600;
-    margin-bottom: 0px;
 }
+
+
