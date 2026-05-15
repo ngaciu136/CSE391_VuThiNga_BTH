@@ -1,0 +1,21 @@
+:root {
+    --bs-success: #356d3c;
+}
+
+body {
+    background: #f5f1ea;
+    font-family: "Inter", sans-serif;
+}
+
+.display-1,
+.display-5 {
+    letter-spacing: -2px;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
