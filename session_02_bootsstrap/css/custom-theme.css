@@ -7,6 +7,10 @@
 
     --bs-body-bg: #f4f0e8;
     --bs-body-color: #2d3436;
+
+    --bs-border-radius: 1rem;
+    --bs-border-radius-lg: 1.5rem;
+    --bs-border-radius-xl: 2rem;
 }
 
 body {
@@ -21,8 +25,22 @@ body {
 
 .card {
     transition: 0.3s;
+    border-radius: var(--bs-border-radius-xl);
 }
 
 .card:hover {
     transform: translateY(-6px);
+}
+
+.sidebar-box {
+    border-radius: var(--bs-border-radius-lg);
+}
+
+.form-control {
+    border-radius: 14px;
+}
+
+.section-spacing {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
